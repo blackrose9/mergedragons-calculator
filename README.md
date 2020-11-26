@@ -1,4 +1,4 @@
-# Merge Challenges
+# Merge Challenge
 #### By blackrose9
 
 ### 'Funny' Story -> Description
@@ -10,14 +10,17 @@ So this project came as a result of a frustration I had during one of the weekly
 
 So then I thought why not build a program that does just that for me. I tell it how many level6 items I want it tells me how many level1 or level2 items I need.
 
+*Side thought: 
+Funny how when I come across an interesting problem my first thought is "I should build a program!" not "let's see if someone else has built a program" 
+
 ## Languages
-Javascript was the first language of choice.
+Plain Javascript for now.
 
 ### CodeBeat Grade
--coming soon-
+[![codebeat badge](https://codebeat.co/badges/d051d892-c275-4fb6-a2fa-57a67e90da08)](https://codebeat.co/projects/github-com-blackrose9-mergedragons-calculator-master)
 
 ### Problems Incomplete / Unsolved
-Need to implement the multilevel calculation to allow me to calculate how many items I need at each level. Assuming I need a high level item from very low level items. Traversing through levels if I can describe it as that.
+Display how many items I need at each level. Assuming I need a high level item from very low level items. Traverse the user through levels if I can describe it as that.
 
 ### Future Works
 Make it pretty with a UI and all.

@@ -4,10 +4,22 @@
 // if you have stored a remainder add 3 to total
 // return number.
 
-findNumber = (input) => {
-   let itemsneeded = separateNumbers(input);
+/** To deal with looping 
+ * loop down from requested level
+ * compute number needed to get to next level and then do it all over again for the next level
+*/
+
+(findNumber = (input, level) => {
+   let a = input;
+   let itemsneeded;
+   for(let x=1; x<level; x++) {
+      itemsneeded = separateNumbers(a);
+      a=itemsneeded;
+   }
+   
    return itemsneeded;
-}
+});
+
 
 separateNumbers = (a) => {
    const remainder = a % 2;
@@ -19,4 +31,5 @@ separateNumbers = (a) => {
    return total;
 }
 
-console.log(findNumber(5));
+findNumber(5,3);
+// rejoinNumbers(13);
